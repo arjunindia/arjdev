@@ -60,7 +60,7 @@
 .shell-top-bar {
   text-align: center;
   color: #525252;
-  padding: 5px 0;
+  padding: 3px 0;
   margin: 0;
   text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
   font-size: 0.85em;
@@ -93,7 +93,7 @@
   color: #45D40C;
   font: 0.8em 'Andale Mono', Consolas, 'Courier New';
   line-height: 1.6em;
-
+  height: auto;
   -webkit-border-bottom-right-radius: 3px;
   -webkit-border-bottom-left-radius: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -123,5 +123,18 @@
 
 }
 #mcsh{
-	width: 45%
+	width: 45%;
+	z-index: 777;
+	height:auto;
+}
+#x{
+	font-size: 11px;
+	text-align: left;
+	align-self: left;
+	margin-right: 15px;
+	background-color: orange;
+	border-radius: 200px;
+	padding: 0 3px;
+border: none;
+
 }

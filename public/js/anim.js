@@ -26,6 +26,9 @@ var options2 = {
   
   showCursor:false
 };
+$('#x').click(function(event) {
+$('#shm').slideToggle(1000);
+});
 
 var typed = new Typed('.element', options);
 var typed2 = new Typed('#shell-text', options2);
