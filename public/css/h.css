@@ -138,3 +138,21 @@
 border: none;
 
 }
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+
+}
+#toto{
+	background-color: rgba(0,0,0,0.7);
+	align-self: center;
+	margin: 5px auto;
+	color: white;
+	text-align: center;
+	width:50%;
+}
